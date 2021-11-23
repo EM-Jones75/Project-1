@@ -48,11 +48,10 @@ Machines within the network can only be accessed by the Jump box provsioner.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name     | Publicly Accessible | Allowed IP Addresses           |
+|----------|---------------------|----------------------          |
+| Jump Box | Yes                 | 10.1.0.5 10.1.0.7 10.1.0.10    |
+| Localhost| no                  | 10.1.0.4                       |
 
 ### Elk Configuration
 
