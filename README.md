@@ -77,7 +77,7 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
 - filebeat https://github.com/EM-Jones75/Project-1/blob/167fe5d34a2eebf34946acacd34b47810fcbc29a/filebeat.yml
-- metricbeat
+- metricbeat https://github.com/EM-Jones75/Project-1/blob/6ed83161317b7b90743f74846b6d535c80a7999b/metricbeat.yml
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
