@@ -40,10 +40,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the localhost machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 -98.219.132.217
 
-Machines within the network can only be accessed by _____.
+Machines within the network can only be accessed by the Jump box provsioner.
 -20.115.58.230
 
 A summary of the access policies in place can be found in the table below.
