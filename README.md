@@ -76,7 +76,7 @@ This ELK server is configured to monitor the following machines:
 - Web3:10.1.0.10
 
 We have installed the following Beats on these machines:
-- filebeat
+- filebeat https://github.com/EM-Jones75/Project-1/blob/167fe5d34a2eebf34946acacd34b47810fcbc29a/filebeat.yml
 - metricbeat
 
 These Beats allow us to collect the following information from each machine:
