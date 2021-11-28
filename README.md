@@ -10,7 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   https://github.com/EM-Jones75/Project-1/blob/5be752f2ccccf33d2ff17ef854a523992fdbfa2f/Elk.yml
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
