@@ -1,0 +1,61 @@
+Instructions
+
+
+Add the sample web log data to Kibana.
+
+
+Answer the following questions:
+
+
+In the last 7 days, how many unique visitors were located in India?
+244
+
+In the last 24 hours, of the visitors from China, how many were using Mac OSX?
+9
+
+In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
+32.2 404     16.3 503
+
+In the last 7 days, what country produced the majority of the traffic on the website?
+China
+
+Of the traffic that's coming from that country, what time of day had the highest amount of activity?
+1 pm
+
+List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
+zip is a common file format that's used to compress one or more files toghether, rpm is a free and open source package system, gz is an archive file compressed by the standard GNU zip or gzip, deb files or Debian packages contain the master control file, and css is a file used to format a webpage. 
+
+
+
+Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
+
+Locate the time frame in the last 7 days with the most amount of bytes (activity).
+In your own words, is there anything that seems potentially strange about this activity?
+It's considerably more than previous or successive days
+
+
+Filter the data by this event.
+
+What is the timestamp for this event? 2021-11-18 16:55
+What kind of file was downloaded? /beats/metricbeat/metricbeat-6.3.2-i686.rpm
+From what country did this activity originate? China
+What HTTP response codes were encountered by this visitor? 200
+
+
+
+Switch to the Kibana Discover page to see more details about this activity.
+
+What is the source IP address of this activity? 74.184.0.64
+What are the geo coordinates of this activity? Nigeria
+What OS was the source machine running? ios
+What is the full URL that was accessed? https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.3.2-i686.rpm
+From what website did the visitor's traffic originate? http://facebook.com/success/william-frederick-fisher
+
+
+
+Finish your investigation with a short overview of your insights.
+
+What do you think the user was doing? attempting to download a metricbeat file from the monitered website
+Was the file they downloaded malicious? If not, what is the file used for? Setting up a metricbeat monitering system
+Is there anything that seems suspicious about this activity? Why would you take a metricbeat program.
+Is any of the traffic you inspected potentially outside of compliance guidlines? There were other instances of increased activity similar to the above but with not as much frequencey. 
